@@ -1,6 +1,6 @@
 # Time converter Chrome Extension
 
-A Chrome extension that converts time (hours and minutes) to decimal values eg. 1 hou, 55 minutes to 1.92 hours.
+A Chrome extension that converts time (hours and minutes) to decimal values eg. 1 hour, 55 minutes to 1.92 hours.
 
 
 ## Acknowledgements
