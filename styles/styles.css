@@ -1,0 +1,80 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    background: rgba(208, 205, 215, 0.3);
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 600px;
+    padding: 50px;
+}
+
+.container h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+
+.container .time-form .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .time-form .input-container label {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.container .time-form .input-container label span,
+.container .time-form .input-container label input {
+    width: 100%;
+    display: block;
+}
+
+.container .time-form .input-container label span {
+    font-size: 20px; 
+    margin-bottom: 5px;
+}
+
+.container .time-form .input-container label input {
+    outline: none;
+    padding: 10px 15px;
+    background: transparent;
+    border: 1px solid #08090A;
+    transition: all .5s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .time-form .input-container label input:focus, 
+.container .time-form .submit-btn {
+    border: 2px solid #08090A;
+}
+
+.container .time-form .submit-btn {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: #ffffff;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    background: #08090A;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container p {
+    color: #058ED9;
+    margin-top: 50px;
+    text-align: center;
+}

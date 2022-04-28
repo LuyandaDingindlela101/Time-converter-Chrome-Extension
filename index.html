@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Time Converter</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+
+        <!-- 3RD PARTY STYLESHEETS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+        <!-- CUSTOM STYLESHEETS -->
+        <link rel="stylesheet" href="./styles/styles.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>Convert time</h1>
+            <form class="time-form">
+                <div class="input-container">
+                    <label for="hours">
+                        <span>Hours</span>
+                        <input type="text" name="hours" class="hours">
+                    </label>
+                    <label for="minutes">
+                        <span>Minutes</span>
+                        <input type="text" name="minutes" class="minutes">
+                    </label>
+                </div>
+                <button type="submit" class="submit-btn">Convert</button>
+            </form>
+            <p class="converted-time"></p>
+        </div>
+
+        <script src="./scripts/index.js"></script>
+    </body>
+</html>

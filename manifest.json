@@ -1,0 +1,12 @@
+{
+    "name": "Time Converter",
+    "version": "1.0.0",
+    "description": "Converts hours and minutes to decimal values",
+    "manifest_version": 3,
+    "author": "Luyanda Dingindlela",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Time Converter"
+    },
+    "icons": { "50": "./assets/favicon.png" }
+}
